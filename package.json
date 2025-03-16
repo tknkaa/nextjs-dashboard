@@ -4,7 +4,8 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start",
-    "format": "pnpx @biomejs/biome format --write ./app"
+    "format": "pnpx @biomejs/biome format --write ./app",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
